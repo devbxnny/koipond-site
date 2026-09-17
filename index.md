@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # 🐟 Koi Pond
 
 Welcome to the official website for **Koi Pond**, a community Discord bot featuring feeding, collectible koi, progression, and server-specific ponds.

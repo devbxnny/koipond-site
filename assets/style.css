@@ -1,0 +1,428 @@
+/* ------------------------------
+   Koi Pond
+   ------------------------------ */
+
+:root {
+    --pond-background: #f3fbff;
+    --pond-blue: #a9ddf5;
+    --pond-blue-dark: #65b6dc;
+
+    --sakura-pink: #f7b8d0;
+    --sakura-light: #fde4ee;
+
+    --card: #ffffff;
+    --text: #405568;
+    --text-light: #708797;
+
+    --shadow: 0 10px 35px rgba(78, 146, 177, 0.12);
+}
+
+
+/* ------------------------------
+   Base
+   ------------------------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+
+    color: var(--text);
+    background: var(--pond-background);
+
+    line-height: 1.7;
+}
+
+
+/* ------------------------------
+   Header
+   ------------------------------ */
+
+.site-header {
+    background: rgba(255, 255, 255, 0.92);
+    border-bottom: 2px solid var(--sakura-light);
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 18px 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+
+    color: var(--text);
+    text-decoration: none;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.logo-fish {
+    font-size: 1.45rem;
+}
+
+.site-nav {
+    display: flex;
+    gap: 26px;
+}
+
+.site-nav a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: 600;
+
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.site-nav a:hover {
+    color: var(--pond-blue-dark);
+    transform: translateY(-1px);
+}
+
+
+/* ------------------------------
+   Main Page
+   ------------------------------ */
+
+.page-wrapper {
+    position: relative;
+
+    min-height: 70vh;
+
+    padding: 70px 24px 90px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            180deg,
+            #f3fbff 0%,
+            #eaf8ff 100%
+        );
+}
+
+.content-card {
+    position: relative;
+    z-index: 2;
+
+    max-width: 850px;
+    margin: 0 auto;
+
+    padding: 48px 55px;
+
+    background: var(--card);
+
+    border: 1px solid rgba(169, 221, 245, 0.6);
+    border-radius: 24px;
+
+    box-shadow: var(--shadow);
+}
+
+
+/* ------------------------------
+   Markdown Content
+   ------------------------------ */
+
+.content-card h1 {
+    margin-top: 0;
+    margin-bottom: 24px;
+
+    color: var(--text);
+
+    font-size: 2.4rem;
+    line-height: 1.2;
+}
+
+.content-card h1::after {
+    content: "";
+
+    display: block;
+
+    width: 65px;
+    height: 5px;
+
+    margin-top: 14px;
+
+    background: var(--sakura-pink);
+
+    border-radius: 999px;
+}
+
+.content-card h2 {
+    margin-top: 42px;
+
+    color: var(--pond-blue-dark);
+
+    font-size: 1.45rem;
+}
+
+.content-card h3 {
+    margin-top: 30px;
+
+    color: var(--text);
+}
+
+.content-card p,
+.content-card li {
+    color: var(--text);
+}
+
+.content-card a {
+    color: var(--pond-blue-dark);
+    font-weight: 600;
+}
+
+.content-card a:hover {
+    color: #479bc2;
+}
+
+.content-card hr {
+    margin: 40px 0;
+
+    border: 0;
+    border-top: 2px solid var(--sakura-light);
+}
+
+.content-card blockquote {
+    margin: 28px 0;
+    padding: 15px 20px;
+
+    background: var(--sakura-light);
+
+    border-left: 5px solid var(--sakura-pink);
+    border-radius: 8px;
+}
+
+
+/* ------------------------------
+   Bubbles
+   ------------------------------ */
+
+.bubble {
+    position: absolute;
+
+    border: 2px solid rgba(101, 182, 220, 0.18);
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.bubble-one {
+    width: 90px;
+    height: 90px;
+
+    top: 70px;
+    left: 7%;
+}
+
+.bubble-two {
+    width: 35px;
+    height: 35px;
+
+    top: 190px;
+    left: 12%;
+}
+
+.bubble-three {
+    width: 120px;
+    height: 120px;
+
+    right: 5%;
+    bottom: 100px;
+}
+
+.bubble-four {
+    width: 45px;
+    height: 45px;
+
+    right: 13%;
+    top: 110px;
+
+    border-color: rgba(247, 184, 208, 0.3);
+}
+
+/* ------------------------------
+   Pond Stones
+   ------------------------------ */
+
+.stones {
+    position: absolute;
+    z-index: 1;
+
+    left: 4%;
+    bottom: 35px;
+
+    width: 170px;
+    height: 90px;
+}
+
+.stone {
+    position: absolute;
+    display: block;
+
+    border-radius: 50%;
+
+    box-shadow:
+        inset 0 -6px 10px rgba(64, 85, 104, 0.10),
+        0 5px 10px rgba(64, 85, 104, 0.10);
+}
+
+.stone-one {
+    width: 70px;
+    height: 38px;
+
+    left: 0;
+    bottom: 0;
+
+    background: #c4dce7;
+    transform: rotate(8deg);
+}
+
+.stone-two {
+    width: 60px;
+    height: 35px;
+
+    left: 50px;
+    bottom: 4px;
+
+    background: #e2cfdd;
+    transform: rotate(-7deg);
+}
+
+.stone-three {
+    width: 72px;
+    height: 39px;
+
+    left: 98px;
+    bottom: 0;
+
+    background: #bcd8df;
+    transform: rotate(5deg);
+}
+
+.stone-four {
+    width: 52px;
+    height: 31px;
+
+    left: 30px;
+    bottom: 32px;
+
+    background: #d9e8ec;
+    transform: rotate(-3deg);
+}
+
+.stone-five {
+    width: 58px;
+    height: 32px;
+
+    left: 78px;
+    bottom: 34px;
+
+    background: #f0cfdd;
+    transform: rotate(10deg);
+}
+
+
+/* ------------------------------
+   Footer
+   ------------------------------ */
+
+.site-footer {
+    position: relative;
+
+    background: var(--pond-blue);
+    text-align: center;
+}
+
+.footer-wave {
+    height: 20px;
+
+    background: var(--sakura-light);
+
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+}
+
+.footer-content {
+    padding: 32px 24px 38px;
+
+    color: var(--text);
+}
+
+.footer-content > span {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.footer-content p {
+    margin: 8px auto 0;
+
+    max-width: 550px;
+
+    font-size: 0.9rem;
+}
+
+.footer-credit {
+    opacity: 0.75;
+}
+
+
+/* ------------------------------
+   Mobile
+   ------------------------------ */
+
+@media (max-width: 650px) {
+
+    .nav-container {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .site-nav {
+        gap: 20px;
+    }
+
+    .page-wrapper {
+        padding:
+            35px
+            15px
+            60px;
+    }
+
+    .content-card {
+        padding:
+            32px
+            24px;
+
+        border-radius: 18px;
+    }
+
+    .content-card h1 {
+        font-size: 2rem;
+    }
+
+    .bubble {
+        opacity: 0.5;
+    }
+}

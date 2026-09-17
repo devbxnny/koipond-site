@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        {% if page.title %}
+            {{ page.title }} | Koi Pond
+        {% else %}
+            Koi Pond
+        {% endif %}
+    </title>
+
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="nav-container">
+
+            <a class="site-logo" href="{{ '/' | relative_url }}">
+                <span class="logo-fish">🐟</span>
+                <span>Koi Pond</span>
+            </a>
+
+            <nav class="site-nav">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/TERMS' | relative_url }}">Terms</a>
+                <a href="{{ '/PRIVACY' | relative_url }}">Privacy</a>
+            </nav>
+
+        </div>
+    </header>
+
+     <main class="page-wrapper">
+
+        <div class="bubble bubble-one"></div>
+        <div class="bubble bubble-two"></div>
+        <div class="bubble bubble-three"></div>
+        <div class="bubble bubble-four"></div>
+
+    <div class="stones">
+    <span class="stone stone-one"></span>
+    <span class="stone stone-two"></span>
+    <span class="stone stone-three"></span>
+    <span class="stone stone-four"></span>
+    <span class="stone stone-five"></span>
+</div>
+
+    <footer class="site-footer">
+        <div class="footer-wave"></div>
+
+        <div class="footer-content">
+            <span>🐟 Koi Pond</span>
+
+            <p>
+                An independent community project.
+                Not affiliated with or endorsed by Discord Inc.
+            </p>
+
+            <p class="footer-credit">
+                Made with 🩷 by devbxnny.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

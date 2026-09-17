@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Policy
+---
+
 # Koi Pond Privacy Policy
 
 **Last Updated: September 16, 2026**

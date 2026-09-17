@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terms of Service
+---
+
 # Koi Pond Terms of Service
 
 **Last Updated: September 16, 2026**
