@@ -17,62 +17,6 @@
     --shadow: 0 10px 35px rgba(78, 146, 177, 0.12);
 }
 
-/* ------------------------------
-   Discord Button
-   ------------------------------ */
-
-.discord-button {
-    display: inline-flex !important;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-
-    width: fit-content;
-    margin-top: 16px;
-    padding: 9px 16px;
-
-    /* Baby pink */
-    background: #f8c8dc !important;
-    color: #ffffff !important;
-
-    text-decoration: none !important;
-    font-size: 0.95rem;
-    font-weight: 700;
-
-    border-radius: 999px;
-
-    box-shadow: 0 4px 12px rgba(248, 200, 220, 0.35);
-
-    transition:
-        transform 0.2s ease,
-        background 0.2s ease,
-        box-shadow 0.2s ease;
-}
-
-.discord-button img {
-    width: 18px !important;
-    height: 18px !important;
-    max-width: 18px !important;
-    max-height: 18px !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
-
-    display: block !important;
-    object-fit: contain;
-
-    /* Turns your black Discord PNG white */
-    filter: brightness(0) invert(1);
-}
-
-.discord-button:hover {
-    background: #f4b8d1 !important;
-
-    transform: translateY(-2px);
-
-    box-shadow: 0 6px 16px rgba(248, 200, 220, 0.45);
-}
-
 
 /* ------------------------------
    Base
@@ -236,7 +180,6 @@ body {
 
 .content-card h3 {
     margin-top: 30px;
-
     color: var(--text);
 }
 
@@ -269,6 +212,67 @@ body {
 
     border-left: 5px solid var(--sakura-pink);
     border-radius: 8px;
+}
+
+
+/* ------------------------------
+   Discord Button
+   ------------------------------ */
+
+.discord-button {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    width: fit-content;
+    margin-top: 16px;
+    padding: 9px 16px;
+
+    background: #f8c8dc !important;
+    color: #ffffff !important;
+
+    text-decoration: none !important;
+    font-size: 0.95rem;
+    font-weight: 700;
+
+    border-radius: 999px;
+
+    box-shadow: 0 4px 12px rgba(248, 200, 220, 0.35);
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.discord-button img {
+    display: block !important;
+
+    width: 18px !important;
+    height: 18px !important;
+
+    min-width: 18px !important;
+    min-height: 18px !important;
+
+    max-width: 18px !important;
+    max-height: 18px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    object-fit: contain;
+
+    /* Black Discord logo -> white */
+    filter: brightness(0) invert(1);
+}
+
+.discord-button:hover {
+    background: #f4b8d1 !important;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 6px 16px rgba(248, 200, 220, 0.45);
 }
 
 
@@ -318,6 +322,7 @@ body {
 
     border-color: rgba(247, 184, 208, 0.3);
 }
+
 
 /* ------------------------------
    Pond Stones
