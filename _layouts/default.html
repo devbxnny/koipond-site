@@ -1,58 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>
         {% if page.title %}
-            {{ page.title }} | Koi Pond
+        {{ page.title }} | Koi Pond
         {% else %}
-            Koi Pond
+        Koi Pond
         {% endif %}
     </title>
 
-    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/style.css">
 </head>
 
 <body>
 
+    <!-- Header -->
     <header class="site-header">
         <div class="nav-container">
 
-            <a class="site-logo" href="{{ '/' | relative_url }}">
+            <a class="site-logo" href="{{ site.baseurl }}/">
                 <span class="logo-fish">🐟</span>
                 <span>Koi Pond</span>
             </a>
 
             <nav class="site-nav">
-                <a href="{{ '/' | relative_url }}">Home</a>
-                <a href="{{ '/TERMS' | relative_url }}">Terms</a>
-                <a href="{{ '/PRIVACY' | relative_url }}">Privacy</a>
+                <a href="{{ site.baseurl }}/">Home</a>
+                <a href="{{ site.baseurl }}/TERMS.html">Terms</a>
+                <a href="{{ site.baseurl }}/PRIVACY.html">Privacy</a>
             </nav>
 
         </div>
     </header>
 
-     <main class="page-wrapper">
 
+    <!-- Main Page -->
+    <main class="page-wrapper">
+
+        <!-- Bubbles -->
         <div class="bubble bubble-one"></div>
         <div class="bubble bubble-two"></div>
         <div class="bubble bubble-three"></div>
         <div class="bubble bubble-four"></div>
 
-    <div class="stones">
-    <span class="stone stone-one"></span>
-    <span class="stone stone-two"></span>
-    <span class="stone stone-three"></span>
-    <span class="stone stone-four"></span>
-    <span class="stone stone-five"></span>
-</div>
+        <!-- Pond Stones -->
+        <div class="stones">
+            <span class="stone stone-one"></span>
+            <span class="stone stone-two"></span>
+            <span class="stone stone-three"></span>
+            <span class="stone stone-four"></span>
+            <span class="stone stone-five"></span>
+        </div>
 
+        <!-- Page Content -->
+        <article class="content-card">
+            {{ content }}
+        </article>
+
+    </main>
+
+
+    <!-- Footer -->
     <footer class="site-footer">
+
         <div class="footer-wave"></div>
 
         <div class="footer-content">
+
             <span>🐟 Koi Pond</span>
 
             <p>
@@ -63,8 +80,11 @@
             <p class="footer-credit">
                 Made with 🩷 by devbxnny.
             </p>
+
         </div>
+
     </footer>
 
 </body>
+
 </html>
