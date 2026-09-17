@@ -214,22 +214,20 @@ body {
    Discord Button
    ------------------------------ */
 
-.content-card a.discord-button {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-
+.content-card .discord-button {
+    display: inline-flex;
+    align-items: center;
     gap: 8px;
 
-    width: fit-content !important;
-    margin: 16px 0 0 !important;
-    padding: 9px 16px !important;
+    margin-top: 16px;
+    padding: 9px 16px;
 
-    background: #f8c8dc !important;
-    color: #ffffff !important;
+    width: auto;
 
-    text-decoration: none !important;
+    background: #f8c8dc;
+    color: #ffffff;
 
+    text-decoration: none;
     font-size: 0.95rem;
     font-weight: 700;
 
@@ -243,29 +241,32 @@ body {
         box-shadow 0.2s ease;
 }
 
-.content-card a.discord-button img.discord-icon {
-    display: block !important;
+.discord-icon {
+    display: inline-block;
 
-    width: 18px !important;
-    height: 18px !important;
+    width: 18px;
+    height: 18px;
 
-    min-width: 18px !important;
-    min-height: 18px !important;
+    flex: 0 0 18px;
 
-    max-width: 18px !important;
-    max-height: 18px !important;
+    background-color: #ffffff;
 
-    margin: 0 !important;
-    padding: 0 !important;
+    -webkit-mask-image: url("discord.png");
+    mask-image: url("discord.png");
 
-    object-fit: contain !important;
+    -webkit-mask-size: contain;
+    mask-size: contain;
 
-    filter: brightness(0) invert(1);
+    -webkit-mask-position: center;
+    mask-position: center;
+
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
 }
 
-.content-card a.discord-button:hover {
-    background: #f4b8d1 !important;
-    color: #ffffff !important;
+.content-card .discord-button:hover {
+    background: #f4b8d1;
+    color: #ffffff;
 
     transform: translateY(-2px);
 

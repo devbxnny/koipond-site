@@ -11,7 +11,7 @@ Welcome to the official website for **Koi Pond**, a community Discord bot featur
 
 Come hang out with the Koi Pond community, get updates, report bugs, and talk about fish. 🩷
 
-<a class="discord-button" href="https://discord.gg/Cbc59YzPkV" target="_blank" rel="noopener noreferrer"><img src="assets/discord.png" alt="Discord" width="18" height="18" style="width:18px;height:18px;max-width:18px;max-height:18px;object-fit:contain;display:inline-block;margin:0;padding:0;filter:brightness(0) invert(1);"> <span>Join the Pond</span></a>
+<a class="discord-button" href="https://discord.gg/Cbc59YzPkV" target="_blank" rel="noopener noreferrer"><span class="discord-icon"></span><span>Join the Pond</span></a>
 
 ## Legal
 
