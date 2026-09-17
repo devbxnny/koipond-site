@@ -110,17 +110,15 @@ body {
     position: relative;
 
     min-height: 70vh;
-
     padding: 70px 24px 90px;
 
     overflow: hidden;
 
-    background:
-        linear-gradient(
-            180deg,
-            #f3fbff 0%,
-            #eaf8ff 100%
-        );
+    background: linear-gradient(
+        180deg,
+        #f3fbff 0%,
+        #eaf8ff 100%
+    );
 }
 
 .content-card {
@@ -129,7 +127,6 @@ body {
 
     max-width: 850px;
     margin: 0 auto;
-
     padding: 48px 55px;
 
     background: var(--card);
@@ -162,11 +159,9 @@ body {
 
     width: 65px;
     height: 5px;
-
     margin-top: 14px;
 
     background: var(--sakura-pink);
-
     border-radius: 999px;
 }
 
@@ -219,20 +214,22 @@ body {
    Discord Button
    ------------------------------ */
 
-.discord-button {
+.content-card a.discord-button {
     display: inline-flex !important;
-    align-items: center;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
+
     gap: 8px;
 
-    width: fit-content;
-    margin-top: 16px;
-    padding: 9px 16px;
+    width: fit-content !important;
+    margin: 16px 0 0 !important;
+    padding: 9px 16px !important;
 
     background: #f8c8dc !important;
     color: #ffffff !important;
 
     text-decoration: none !important;
+
     font-size: 0.95rem;
     font-weight: 700;
 
@@ -246,7 +243,7 @@ body {
         box-shadow 0.2s ease;
 }
 
-.discord-button img {
+.content-card a.discord-button img.discord-icon {
     display: block !important;
 
     width: 18px !important;
@@ -261,14 +258,14 @@ body {
     margin: 0 !important;
     padding: 0 !important;
 
-    object-fit: contain;
+    object-fit: contain !important;
 
-    /* Black Discord logo -> white */
     filter: brightness(0) invert(1);
 }
 
-.discord-button:hover {
+.content-card a.discord-button:hover {
     background: #f4b8d1 !important;
+    color: #ffffff !important;
 
     transform: translateY(-2px);
 
@@ -427,7 +424,6 @@ body {
 
 .footer-content {
     padding: 32px 24px 38px;
-
     color: var(--text);
 }
 
@@ -465,17 +461,11 @@ body {
     }
 
     .page-wrapper {
-        padding:
-            35px
-            15px
-            60px;
+        padding: 35px 15px 60px;
     }
 
     .content-card {
-        padding:
-            32px
-            24px;
-
+        padding: 32px 24px;
         border-radius: 18px;
     }
 
