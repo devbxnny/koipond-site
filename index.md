@@ -7,6 +7,16 @@ title: Home
 
 Welcome to the official website for **Koi Pond**, a community Discord bot featuring feeding, collectible koi, progression, and server-specific ponds.
 
+## 🌊 Explore the Pond
+
+**[🐟 Koi Catalogue](catalogue.html)**
+
+Meet the fish! Explore every released koi, from familiar Common fish to special Limited residents.
+
+**[📖 Beginner's Guide](guide.html)**
+
+Learn how to set up your pond, feed the koi, earn coins, collect fish, and grow your community.
+
 ## Join the Pond
 
 Come hang out with the Koi Pond community, get updates, report bugs, and talk about fish. 🩷
