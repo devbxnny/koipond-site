@@ -788,3 +788,135 @@ body {
         padding: 20px 16px;
     }
 }
+
+/* ==========================================
+   STAFF PAGE — POND KEEPERS
+   ========================================== */
+
+.staff-intro {
+    margin-bottom: 36px;
+}
+
+.staff-intro p {
+    color: var(--text-light);
+}
+
+.staff-section {
+    margin-top: 44px;
+}
+
+.staff-section > h2 {
+    margin-bottom: 20px;
+}
+
+.staff-card {
+    min-width: 0;
+    padding: 24px;
+    background: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        #f3fbff 100%
+    );
+    border: 2px solid var(--sakura-light);
+    border-radius: 22px;
+    box-shadow: 0 5px 18px rgba(78, 146, 177, 0.08);
+}
+
+.staff-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 14px;
+    background: var(--sakura-light);
+    border-radius: 50%;
+    font-size: 1.9rem;
+}
+
+.content-card .staff-card h3 {
+    margin: 0 0 4px;
+    font-size: 1.3rem;
+}
+
+.staff-role {
+    margin: 0;
+    color: #a54e77 !important;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.staff-creator {
+    display: flex;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.staff-creator .staff-avatar {
+    flex-shrink: 0;
+    width: 84px;
+    height: 84px;
+    font-size: 2.5rem;
+}
+
+.staff-details {
+    min-width: 0;
+}
+
+.content-card .staff-details h4 {
+    margin: 22px 0 8px;
+    color: var(--pond-blue-dark);
+}
+
+.staff-details p:last-child {
+    margin-bottom: 0;
+}
+
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.staff-grid .staff-card {
+    text-align: center;
+    padding: 22px 14px;
+}
+
+.staff-grid .staff-avatar {
+    margin: 0 auto 14px;
+}
+
+.staff-apply {
+    margin-top: 48px;
+    padding: 28px;
+    background: var(--sakura-light);
+    border-radius: 22px;
+    text-align: center;
+}
+
+.content-card .staff-apply h2 {
+    margin-top: 0;
+}
+
+.staff-apply p {
+    max-width: 570px;
+    margin: 12px auto;
+}
+
+/* Staff page — mobile */
+
+@media (max-width: 650px) {
+    .staff-creator {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .staff-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .staff-apply {
+        padding: 24px 18px;
+    }
+}
