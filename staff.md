@@ -66,17 +66,12 @@ permalink: /staff.html
         on future koi collections!
     </p>
 
-    <p>
-        Guest artist applications are coming soon.
-        In the meantime, join our community for updates!
-    </p>
-
     <a
         class="pond-button"
         href="https://docs.google.com/forms/d/e/1FAIpQLSfZtnrqjGNLtd-1GQ1GdHeLGwP6LsChmMahdI9nYkR1KTx6yQ/viewform?usp=header"
         target="_blank"
         rel="noopener noreferrer"
     >
-        🐟 Join the Pond
+        🐟 Apply here
     </a>
 </section>
