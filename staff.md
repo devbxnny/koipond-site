@@ -26,7 +26,7 @@ permalink: /staff.html
                 combining programming and art to create interactive little worlds.
             </p>
             <p>
-                Koi Pond is where those interests come together—with a frankly
+                Koi Pond is where those interests come together with a frankly
                 unreasonable number of fish.
             </p>
         </div>
