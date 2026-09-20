@@ -17,8 +17,20 @@ Feed the koi, earn Pond Coins, collect fish, unlock upgrades, and grow your pond
 ## 🌊 Getting Started
 
 1. Add Koi Pond to your Discord server.
+
+   <a
+       class="pond-button"
+       href="https://discord.com/oauth2/authorize?client_id=1548524151600455781"
+       target="_blank"
+       rel="noopener noreferrer"
+   >
+       🐟 Add Koi Pond to Your Server
+   </a>
+
 2. Choose the channel where you want your pond to live.
+
 3. Use `/pondsetup` to create your community pond. You need the **Manage Server** permission.
+
 4. Start feeding the koi!
 
 You can use `/pondguide` inside Discord whenever you need a reminder.
