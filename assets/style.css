@@ -920,3 +920,31 @@ body {
         padding: 24px 18px;
     }
 }
+
+/* GETTING STARTED — INSTALL BUTTON */
+
+.getting-started-steps li {
+    margin-bottom: 20px;
+}
+
+.getting-started-steps li p {
+    margin: 0 0 12px;
+}
+
+.content-card .getting-started-steps .pond-button {
+    display: inline-block;
+    margin: 0 0 4px;
+    padding: 12px 22px;
+    background: var(--sakura-pink);
+    color: var(--text);
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: var(--shadow);
+}
+
+.content-card .getting-started-steps .pond-button:hover {
+    background: var(--sakura-light);
+    color: var(--text);
+    transform: translateY(-2px);
+}
