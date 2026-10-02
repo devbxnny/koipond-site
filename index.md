@@ -9,12 +9,10 @@ Welcome to the official website for **Koi Pond** — a community Discord game wh
 
 Feed the koi, earn Pond Coins, collect rare fish, play minigames, activate boosts, customize your pond, and climb the leaderboards together. ♡
 
-<a
-    class="pond-button"
-    href="https://discord.com/oauth2/authorize?client_id=1548524151600455781"
-    target="_blank"
-    rel="noopener noreferrer"
->🐟 Add Koi Pond to Your Server</a>
+<a class="pond-button"
+   href="https://discord.com/oauth2/authorize?client_id=1548524151600455781"
+   target="_blank"
+   rel="noopener noreferrer">🐟 Add Koi Pond to Your Server</a>
 
 ---
 
@@ -137,15 +135,10 @@ The full guide explains everything currently available in Koi Pond, including:
 
 Need help, found a bug, want updates, or just need somewhere to yell about a fish you finally caught?
 
-<a
-    class="discord-button"
-    href="https://discord.gg/Cbc59YzPkV"
-    target="_blank"
-    rel="noopener noreferrer"
->
-    <span class="discord-icon"></span>
-    <span>Join the Pond</span>
-</a>
+<a class="discord-button"
+   href="https://discord.gg/Cbc59YzPkV"
+   target="_blank"
+   rel="noopener noreferrer"><span class="discord-icon"></span><span>Join the Pond</span></a>
 
 ---
 
