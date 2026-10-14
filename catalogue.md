@@ -155,7 +155,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/common_earth.png" alt="Earth koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/common-earth.png" alt="Earth koi" loading="lazy">
             </div>
             <h3>Earth</h3>
             <span class="rarity common">Common</span>
@@ -164,7 +164,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/common_alien.png" alt="Alien koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/common-alien.png" alt="Alien koi" loading="lazy">
             </div>
             <h3>Alien</h3>
             <span class="rarity common">Common</span>
@@ -173,7 +173,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/common_dragon.png" alt="Dragon koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/common-dragon.png" alt="Dragon koi" loading="lazy">
             </div>
             <h3>Dragon</h3>
             <span class="rarity common">Common</span>
@@ -307,7 +307,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/uncommon_constellation.png" alt="Constellation koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/uncommon-constellation.png" alt="Constellation koi" loading="lazy">
             </div>
             <h3>Constellation</h3>
             <span class="rarity uncommon">Uncommon</span>
@@ -316,7 +316,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/uncommon_knight.png" alt="Knight koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/uncommon-knight.png" alt="Knight koi" loading="lazy">
             </div>
             <h3>Knight</h3>
             <span class="rarity uncommon">Uncommon</span>
@@ -325,7 +325,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/uncommon_princess.png" alt="Princess koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/uncommon-princess.png" alt="Princess koi" loading="lazy">
             </div>
             <h3>Princess</h3>
             <span class="rarity uncommon">Uncommon</span>
@@ -450,7 +450,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/rare_comet.png" alt="Comet koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/rare-comet.png" alt="Comet koi" loading="lazy">
             </div>
             <h3>Comet</h3>
             <span class="rarity rare">Rare</span>
@@ -459,7 +459,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/rare_nebula.png" alt="Nebula koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/rare-nebula.png" alt="Nebula koi" loading="lazy">
             </div>
             <h3>Nebula</h3>
             <span class="rarity rare">Rare</span>
@@ -468,7 +468,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/rare_faerie.png" alt="Faerie koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/rare-faerie.png" alt="Faerie koi" loading="lazy">
             </div>
             <h3>Faerie</h3>
             <span class="rarity rare">Rare</span>
@@ -485,7 +485,7 @@ permalink: /catalogue.html
     <div class="koi-grid">
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/epic_superstaridol.png" alt="Superstar Idol koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/epic-superstaridol.png" alt="Superstar Idol koi" loading="lazy">
             </div>
             <h3>Superstar Idol</h3>
             <span class="rarity epic">Epic</span>
@@ -494,7 +494,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/epic_wizard.png" alt="Wizard koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/epic-wizard.png" alt="Wizard koi" loading="lazy">
             </div>
             <h3>Wizard</h3>
             <span class="rarity epic">Epic</span>
@@ -503,7 +503,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/epic_frogprince.png" alt="Frog Prince koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/epic-frogprince.png" alt="Frog Prince koi" loading="lazy">
             </div>
             <h3>Frog Prince</h3>
             <span class="rarity epic">Epic</span>
@@ -538,7 +538,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/legendary_star.png" alt="Star koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/legendary-star.png" alt="Star koi" loading="lazy">
             </div>
             <h3>Star</h3>
             <span class="rarity legendary">Legendary</span>
@@ -547,7 +547,7 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/legendary_jester.png" alt="Jester koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/legendary-jester.png" alt="Jester koi" loading="lazy">
             </div>
             <h3>Jester</h3>
             <span class="rarity legendary">Legendary</span>
