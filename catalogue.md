@@ -6,17 +6,14 @@ permalink: /catalogue.html
 
 <div class="catalogue-intro">
     <h1>🐟 Koi Catalogue</h1>
-
     <p>
         Meet the residents of Koi Pond! Every koi has its own
         story, personality, and hand-drawn artwork.
     </p>
-
     <p>
-        <strong>41 featured catchable koi</strong> are listed here,
+        <strong>55 featured catchable koi</strong> are listed here,
         alongside <strong>1 special Limited koi</strong>.
     </p>
-
     <p class="catalogue-note">
         Every successful feeding has a 50% chance to catch a koi.
         Secret koi and the Halloween launch collection are intentionally not shown here.
@@ -24,18 +21,12 @@ permalink: /catalogue.html
     </p>
 </div>
 
-<!-- ========================= -->
 <!-- COMMON KOI -->
-<!-- ========================= -->
-
 <section class="catalogue-section">
-
     <h2>🐟 Common</h2>
-
-    <p>14 common koi currently featured in the catalogue.</p>
+    <p>17 common koi currently featured in the catalogue.</p>
 
     <div class="koi-grid">
-
         <article class="koi-card">
             <div class="koi-art">
                 <img src="{{ site.baseurl }}/assets/common-akabekko.png" alt="Aka Bekko koi" loading="lazy">
@@ -51,7 +42,7 @@ permalink: /catalogue.html
             </div>
             <h3>Coquette</h3>
             <span class="rarity common">Common</span>
-            <p>A dainty little koi wrapped in ribbons, pearls, and soft pink charm. She drifts through the pond like a handwritten love note, leaving behind nothing but rosy daydreams and suspiciously perfect bows. *Concept and artwork by aughs*</p>
+            <p>A dainty little koi wrapped in ribbons, pearls, and soft pink charm. She drifts through the pond like a handwritten love note, leaving behind nothing but rosy daydreams and suspiciously perfect bows. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -60,7 +51,7 @@ permalink: /catalogue.html
             </div>
             <h3>Cosmic Brownie</h3>
             <span class="rarity common">Common</span>
-            <p>A fudgy little koi covered in rainbow candy pieces. She has the nutritional value of a childhood memory and the confidence of a legend.*Concept and artwork by aughs*</p>
+            <p>A fudgy little koi covered in rainbow candy pieces. She has the nutritional value of a childhood memory and the confidence of a legend. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -78,7 +69,7 @@ permalink: /catalogue.html
             </div>
             <h3>Eclair</h3>
             <span class="rarity common">Common</span>
-            <p>Covered in glossy green icing, this koi has somehow become an eclair without becoming any less fish.*Concept and artwork by aughs*</p>
+            <p>Covered in glossy green icing, this koi has somehow become an eclair without becoming any less fish. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -162,21 +153,41 @@ permalink: /catalogue.html
             <p>Yamabuki Ogon are known for their bright, metallic golden-yellow coloring. Their name comes from the Japanese yamabuki flower, known for its vivid yellow blooms.</p>
         </article>
 
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/common_earth.png" alt="Earth koi" loading="lazy">
+            </div>
+            <h3>Earth</h3>
+            <span class="rarity common">Common</span>
+            <p>An entire planet with fins. Somehow still needs you to feed it. Its inhabitants are currently arguing about whether you exist.<br><br><em>Concept and artwork by aughs</em></p>
+        </article>
+
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/common_alien.png" alt="Alien koi" loading="lazy">
+            </div>
+            <h3>Alien</h3>
+            <span class="rarity common">Common</span>
+            <p>Claims it came in peace, but the tiny cow in its fins would like to file a complaint. Keeps asking to speak to your pond’s manager. Unfortunately, that is you.</p>
+        </article>
+
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/common_dragon.png" alt="Dragon koi" loading="lazy">
+            </div>
+            <h3>Dragon</h3>
+            <span class="rarity common">Common</span>
+            <p>A fearsome guardian of ancient treasures. Unfortunately, its hoard consists entirely of shiny pebbles and one very burnt breadstick.<br><br><em>Concept and artwork by ghostygal._.</em></p>
+        </article>
     </div>
 </section>
 
-<!-- ========================= -->
 <!-- UNCOMMON KOI -->
-<!-- ========================= -->
-
 <section class="catalogue-section">
-
     <h2>✨ Uncommon</h2>
-
-    <p>13 uncommon koi currently featured in the catalogue.</p>
+    <p>16 uncommon koi currently featured in the catalogue.</p>
 
     <div class="koi-grid">
-
         <article class="koi-card">
             <div class="koi-art">
                 <img src="{{ site.baseurl }}/assets/uncommon-berrytaffy.png" alt="Berry Taffy koi" loading="lazy">
@@ -201,7 +212,7 @@ permalink: /catalogue.html
             </div>
             <h3>Cake Roll</h3>
             <span class="rarity uncommon">Uncommon</span>
-            <p>A chocolate cake roll topped with cream and fresh berries. She insists the spiral is a natural koi marking. Sure, girl.*Concept and artwork by aughs*</p>
+            <p>A chocolate cake roll topped with cream and fresh berries. She insists the spiral is a natural koi marking. Sure, girl. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -210,7 +221,7 @@ permalink: /catalogue.html
             </div>
             <h3>Frutiger Aero</h3>
             <span class="rarity uncommon">Uncommon</span>
-            <p>A nostalgic koi from a future that never quite arrived. With glassy bubbles, lush green fins, and a love for all things shiny, she brings a little piece of the early internet to your pond. *Concept and artwork by aughs*</p>
+            <p>A nostalgic koi from a future that never quite arrived. With glassy bubbles, lush green fins, and a love for all things shiny, she brings a little piece of the early internet to your pond. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -219,7 +230,7 @@ permalink: /catalogue.html
             </div>
             <h3>Frutiger Metro</h3>
             <span class="rarity uncommon">Uncommon</span>
-            <p>A vibrant koi swimming through a world of bold colors, bubbly circles, and playful swirls. She's got the energy of a 2000s graphic design project and absolutely refuses to use a plain background. *Concept and artwork by aughs*</p>
+            <p>A vibrant koi swimming through a world of bold colors, bubbly circles, and playful swirls. She's got the energy of a 2000s graphic design project and absolutely refuses to use a plain background. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -233,11 +244,11 @@ permalink: /catalogue.html
 
         <article class="koi-card">
             <div class="koi-art">
-                <img src="{{ site.baseurl }}/assets/uncommon-mmcookie.png" alt="M&M Cookie koi" loading="lazy">
+                <img src="{{ site.baseurl }}/assets/uncommon-mmcookie.png" alt="M&amp;M Cookie koi" loading="lazy">
             </div>
-            <h3>M&M Cookie</h3>
+            <h3>M&amp;M Cookie</h3>
             <span class="rarity uncommon">Uncommon</span>
-            <p>A freshly baked cookie koi packed with chocolate chunks and colorful candies. Several bites appear to be missing. Nobody in the pond is talking.*Concept and artwork by aughs*</p>
+            <p>A freshly baked cookie koi packed with chocolate chunks and colorful candies. Several bites appear to be missing. Nobody in the pond is talking. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -264,7 +275,7 @@ permalink: /catalogue.html
             </div>
             <h3>Retro</h3>
             <span class="rarity uncommon">Uncommon</span>
-            <p>A neon-soaked koi straight out of a forgotten arcade. Covered in funky stars, glowing swirls, and enough nostalgia to make your parents feel old. She parties like it's 1999, and nobody has the heart to tell her otherwise. *Concept and artwork by aughs*</p>
+            <p>A neon-soaked koi straight out of a forgotten arcade. Covered in funky stars, glowing swirls, and enough nostalgia to make your parents feel old. She parties like it's 1999, and nobody has the heart to tell her otherwise. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -294,28 +305,48 @@ permalink: /catalogue.html
             <p>Pastel sparkles trail behind this koi wherever it swims. Its colors are so perfectly coordinated that this may have been intentional.</p>
         </article>
 
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/uncommon_constellation.png" alt="Constellation koi" loading="lazy">
+            </div>
+            <h3>Constellation</h3>
+            <span class="rarity uncommon">Uncommon</span>
+            <p>Connect the dots on its scales to reveal ancient celestial wisdom. So far, every keeper has drawn a little guy holding a sandwich.</p>
+        </article>
+
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/uncommon_knight.png" alt="Knight koi" loading="lazy">
+            </div>
+            <h3>Knight</h3>
+            <span class="rarity uncommon">Uncommon</span>
+            <p>A noble warrior sworn to protect the kingdom. Has never won a duel, but looks extremely brave holding that tiny sword.<br><br><em>Concept and artwork by ghostygal._.</em></p>
+        </article>
+
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/uncommon_princess.png" alt="Princess koi" loading="lazy">
+            </div>
+            <h3>Princess</h3>
+            <span class="rarity uncommon">Uncommon</span>
+            <p>Heir to the royal throne and beloved by all. Secretly sneaks out of the castle to eat pond bugs with the commoners.<br><br><em>Concept and artwork by ghostygal._.</em></p>
+        </article>
     </div>
 </section>
 
-<!-- ========================= -->
 <!-- RARE KOI -->
-<!-- ========================= -->
-
 <section class="catalogue-section">
-
     <h2>🌟 Rare</h2>
-
-    <p>12 rare koi currently featured in the catalogue.</p>
+    <p>15 rare koi currently featured in the catalogue.</p>
 
     <div class="koi-grid">
-
         <article class="koi-card">
             <div class="koi-art">
                 <img src="{{ site.baseurl }}/assets/rare-2016.png" alt="2016 koi" loading="lazy">
             </div>
             <h3>2016</h3>
             <span class="rarity rare">Rare</span>
-            <p>A koi forged in the chaotic depths of 2016. Armed with a galaxy tail, unicorn horn, fake mustache, oversized glasses, and a suspiciously sugary frappe, she looks like she says 'I’m so random xD' and means it.*Concept and artwork by aughs*</p>
+            <p>A koi forged in the chaotic depths of 2016. Armed with a galaxy tail, unicorn horn, fake mustache, oversized glasses, and a suspiciously sugary frappe, she looks like she says 'I’m so random xD' and means it. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -351,7 +382,7 @@ permalink: /catalogue.html
             </div>
             <h3>Cinnabun</h3>
             <span class="rarity rare">Rare</span>
-            <p>Warm, swirly, and absolutely smothered in icing. She smells suspiciously like a mall food court and considers this a compliment.*Concept and artwork by aughs*</p>
+            <p>Warm, swirly, and absolutely smothered in icing. She smells suspiciously like a mall food court and considers this a compliment. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -360,7 +391,7 @@ permalink: /catalogue.html
             </div>
             <h3>Crepe</h3>
             <span class="rarity rare">Rare</span>
-            <p>A delicate crepe koi stuffed with strawberries, matcha, and cream. She's technically dessert, technically breakfast, and refuses to elaborate.*Concept and artwork by aughs*</p>
+            <p>A delicate crepe koi stuffed with strawberries, matcha, and cream. She's technically dessert, technically breakfast, and refuses to elaborate. <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -387,7 +418,7 @@ permalink: /catalogue.html
             </div>
             <h3>Pink Licorice</h3>
             <span class="rarity rare">Rare</span>
-            <p>Soft, sweet, and a little twisted. This koi has a habit of tangling its fins around anything that catches its attention. *Concept by pixie.in.pink*</p>
+            <p>Soft, sweet, and a little twisted. This koi has a habit of tangling its fins around anything that catches its attention. <em>Concept by pixie.in.pink</em></p>
         </article>
 
         <article class="koi-card">
@@ -405,7 +436,7 @@ permalink: /catalogue.html
             </div>
             <h3>Rainbow Belt</h3>
             <span class="rarity rare">Rare</span>
-            <p>Coated in a fine layer of sugar, this koi leaves a trail of rainbow-colored sweetness wherever it swims. Its fins are surprisingly sour. *Concept by pixie.in.pink*</p>
+            <p>Coated in a fine layer of sugar, this koi leaves a trail of rainbow-colored sweetness wherever it swims. Its fins are surprisingly sour. <em>Concept by pixie.in.pink</em></p>
         </article>
 
         <article class="koi-card">
@@ -417,28 +448,83 @@ permalink: /catalogue.html
             <p>Its scales shimmer like freshly hardened candy. Other koi have been caught trying to nibble on its jewel-like body.</p>
         </article>
 
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/rare_comet.png" alt="Comet koi" loading="lazy">
+            </div>
+            <h3>Comet</h3>
+            <span class="rarity rare">Rare</span>
+            <p>Streaks through the pond at unreasonable speeds with absolutely no destination. You made a wish as it passed. It heard you and kept going.<br><br><em>Concept and artwork by aughs</em></p>
+        </article>
+
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/rare_nebula.png" alt="Nebula koi" loading="lazy">
+            </div>
+            <h3>Nebula</h3>
+            <span class="rarity rare">Rare</span>
+            <p>A breathtaking cloud of cosmic dust where new stars are born. Please stop calling it space lint. It worked very hard on those colors.<br><br><em>Concept and artwork by aughs</em></p>
+        </article>
+
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/rare_faerie.png" alt="Faerie koi" loading="lazy">
+            </div>
+            <h3>Faerie</h3>
+            <span class="rarity rare">Rare</span>
+            <p>A mischievous little creature blessed with ancient magic. Grants wishes, but always gets one very important detail wrong.<br><br><em>Concept and artwork by ghostygal._.</em></p>
+        </article>
     </div>
 </section>
 
-<!-- ========================= -->
-<!-- LEGENDARY KOI -->
-<!-- ========================= -->
-
+<!-- EPIC KOI -->
 <section class="catalogue-section">
-
-    <h2>👑 Legendary</h2>
-
-    <p>2 legendary koi currently featured in the catalogue.</p>
+    <h2>💎 Epic</h2>
+    <p>3 epic koi currently featured in the catalogue.</p>
 
     <div class="koi-grid">
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/epic_superstaridol.png" alt="Superstar Idol koi" loading="lazy">
+            </div>
+            <h3>Superstar Idol</h3>
+            <span class="rarity epic">Epic</span>
+            <p>Clearly misunderstood what kind of star this collection was looking for, but showed up with twin tails and a record deal anyway. Whatever. Sure. Sold out three puddles and a birdbath.<br><br><em>Concept and artwork by aughs</em></p>
+        </article>
 
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/epic_wizard.png" alt="Wizard koi" loading="lazy">
+            </div>
+            <h3>Wizard</h3>
+            <span class="rarity epic">Epic</span>
+            <p>Master of the arcane arts and keeper of forbidden knowledge. Once turned an entire pond into soup. Refuses to elaborate.<br><br><em>Concept and artwork by ghostygal._.</em></p>
+        </article>
+
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/epic_frogprince.png" alt="Frog Prince koi" loading="lazy">
+            </div>
+            <h3>Frog Prince</h3>
+            <span class="rarity epic">Epic</span>
+            <p>Cursed by a wicked witch to live as a fish. Was previously a frog. Frankly, things haven't improved.<br><br><em>Concept and artwork by ghostygal._.</em></p>
+        </article>
+    </div>
+</section>
+
+<!-- LEGENDARY KOI -->
+<section class="catalogue-section">
+    <h2>👑 Legendary</h2>
+    <p>4 legendary koi currently featured in the catalogue.</p>
+
+    <div class="koi-grid">
         <article class="koi-card">
             <div class="koi-art">
                 <img src="{{ site.baseurl }}/assets/legendary-croissant.png" alt="Croissant koi" loading="lazy">
             </div>
             <h3>Croissant</h3>
             <span class="rarity legendary">Legendary</span>
-            <p>A legendary pastry of unknown origin. It has no fins, no scales, and possibly no business being in the pond. It is, however, having a wonderful time. :D*Concept and artwork by aughs*</p>
+            <p>A legendary pastry of unknown origin. It has no fins, no scales, and possibly no business being in the pond. It is, however, having a wonderful time. :D <em>Concept and artwork by aughs</em></p>
         </article>
 
         <article class="koi-card">
@@ -447,24 +533,35 @@ permalink: /catalogue.html
             </div>
             <h3>Rocket Pop</h3>
             <span class="rarity legendary">Legendary</span>
-            <p>A legendary koi that streaks through the pond in a flash of red, white, and blue. It seems to be melting, but never gets any smaller. *Concept by pixie.in.pink*</p>
+            <p>A legendary koi that streaks through the pond in a flash of red, white, and blue. It seems to be melting, but never gets any smaller. <em>Concept by pixie.in.pink</em></p>
         </article>
 
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/legendary_star.png" alt="Star koi" loading="lazy">
+            </div>
+            <h3>Star</h3>
+            <span class="rarity legendary">Legendary</span>
+            <p>Fell from the heavens and immediately demanded premium pellets. You wished upon it for good fortune. It wished upon you for a second dinner.</p>
+        </article>
+
+        <article class="koi-card">
+            <div class="koi-art">
+                <img src="{{ site.baseurl }}/assets/legendary_jester.png" alt="Jester koi" loading="lazy">
+            </div>
+            <h3>Jester</h3>
+            <span class="rarity legendary">Legendary</span>
+            <p>The royal court's most beloved entertainer. Has been banned from performing seventeen times. Nobody remembers inviting it back.<br><br><em>Concept and artwork by ghostygal._.</em></p>
+        </article>
     </div>
 </section>
 
-<!-- ========================= -->
 <!-- LIMITED KOI -->
-<!-- ========================= -->
-
 <section class="catalogue-section">
-
     <h2>🌸 Limited</h2>
-
     <p>1 limited koi currently featured in the catalogue.</p>
 
     <div class="koi-grid">
-
         <article class="koi-card">
             <div class="koi-art">
                 <img src="{{ site.baseurl }}/assets/beta-sakura.png" alt="Beta Sakura koi" loading="lazy">
@@ -473,21 +570,17 @@ permalink: /catalogue.html
             <span class="rarity limited">Limited</span>
             <p>A commemorative Sakura Koi gifted to the earliest keepers of Koi Pond.</p>
         </article>
-
     </div>
 </section>
 
 <section class="catalogue-future">
     <h2>🌊 More fih are always coming...</h2>
-
     <p>
         New koi, collections, event fish, and other strange pond residents
         may appear as Koi Pond grows.
     </p>
-
     <p>
         Keep an eye on the pond. You never know what might be swimming beneath the surface.
     </p>
-
     <p><strong>fih be upon ye. 🐟</strong></p>
 </section>
