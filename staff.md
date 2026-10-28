@@ -48,11 +48,17 @@ permalink: /staff.html
             <h3>August</h3>
             <p class="staff-role">Moderator · Artist</p>
         </article>
+    </div>
+</section>
 
+<section class="staff-section">
+    <h2>🎨 Permanent Artists</h2>
+
+    <div class="staff-grid">
         <article class="staff-card">
-            <div class="staff-avatar">🌟</div>
-            <h3>Jupitere</h3>
-            <p class="staff-role">Moderator · Artist</p>
+            <div class="staff-avatar">👻</div>
+            <h3>ghostygal._.</h3>
+            <p class="staff-role">Permanent Artist</p>
         </article>
     </div>
 </section>
